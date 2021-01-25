@@ -1,0 +1,9 @@
+
+version: '3'
+services:
+  spring-boot:
+    #Me creo la imagen en el propio directorio que estoy
+    build: . 
+    image: spring-demo
+    ports:
+      - "8080:8080"
